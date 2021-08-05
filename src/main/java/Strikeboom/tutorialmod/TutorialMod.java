@@ -1,6 +1,7 @@
 package Strikeboom.tutorialmod;
 
 import Strikeboom.tutorialmod.handlers.proxy.IProxy;
+import Strikeboom.tutorialmod.init.ModItems;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -19,6 +20,7 @@ public class TutorialMod {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         proxy.preInit();
+        ModItems.preInit();
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
