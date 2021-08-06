@@ -1,7 +1,9 @@
 package Strikeboom.tutorialmod.handlers;
 
 import Strikeboom.tutorialmod.TutorialMod;
+import Strikeboom.tutorialmod.init.ModBlocks;
 import Strikeboom.tutorialmod.init.ModItems;
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -12,5 +14,9 @@ public class RegistryHandlers {
     @SubscribeEvent
     public static void itemRegister(RegistryEvent.Register<Item> event) {
         event.getRegistry().registerAll(ModItems.ITEMS.toArray(new Item[0]));
+    }
+    @SubscribeEvent
+    public static void blockRegister(RegistryEvent.Register<Block> event) {
+        event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block[0]));
     }
 }
