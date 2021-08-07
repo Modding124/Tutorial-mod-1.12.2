@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "tutorialmod:striped_block"
+    }
+  ],
+  "result":
+  {
+    "item": "tutorialmod:striped_ingot",
+    "count": 9
+  }
+}

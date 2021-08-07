@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key":
+  {
+    "S":
+    {
+      "item": "tutorialmod:striped_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "tutorialmod:striped_block",
+    "count": 1
+  }
+}
