@@ -1,5 +1,6 @@
 package Strikeboom.tutorialmod.init;
 
+import Strikeboom.tutorialmod.TutorialMod;
 import net.minecraft.item.Item;
 
 import java.util.LinkedList;
@@ -18,6 +19,7 @@ public class ModItems {
     }
     private static void add(Item i) {
         i.setUnlocalizedName(i.getRegistryName().toString().replace(":","."));
+        i.setCreativeTab(TutorialMod.MOD_TAB);
         ITEMS.add(i);
     }
 }

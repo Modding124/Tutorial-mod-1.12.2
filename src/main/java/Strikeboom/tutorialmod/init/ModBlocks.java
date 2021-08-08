@@ -1,5 +1,6 @@
 package Strikeboom.tutorialmod.init;
 
+import Strikeboom.tutorialmod.TutorialMod;
 import Strikeboom.tutorialmod.blocks.StripedBlock;
 import Strikeboom.tutorialmod.blocks.StripedOre;
 import net.minecraft.block.Block;
@@ -24,6 +25,7 @@ public class ModBlocks {
     }
     private static void add(Block block) {
         block.setUnlocalizedName(block.getRegistryName().toString().replace(":","."));
+        block.setCreativeTab(TutorialMod.MOD_TAB);
         BLOCKS.add(block);
         ModItems.ITEMS.add(new ItemBlock(block).setRegistryName(block.getRegistryName()));
     }

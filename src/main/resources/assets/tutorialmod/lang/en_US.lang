@@ -2,3 +2,5 @@ item.tutorialmod.striped_ingot.name=Striped Ingot
 
 tile.tutorialmod.striped_block.name=Striped Block
 tile.tutorialmod.striped_ore.name=Striped Ore
+
+itemGroup.tutorialmod=Tutorial Mod
