@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "normal":{ "model": "tutorialmod:striped_ore"}
+  }
+}
