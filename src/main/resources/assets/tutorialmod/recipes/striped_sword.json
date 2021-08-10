@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "S",
+    "S",
+    "W"
+  ],
+  "key":
+  {
+    "S":
+    {
+      "item": "tutorialmod:striped_ingot"
+    },
+    "W":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "tutorialmod:striped_sword",
+    "count": 1
+  }
+}

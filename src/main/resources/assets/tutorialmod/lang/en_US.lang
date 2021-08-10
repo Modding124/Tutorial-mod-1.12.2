@@ -1,4 +1,9 @@
 item.tutorialmod.striped_ingot.name=Striped Ingot
+item.tutorialmod.striped_pickaxe.name=Striped Pickaxe
+item.tutorialmod.striped_axe.name=Striped Axe
+item.tutorialmod.striped_shovel.name=Striped Shovel
+item.tutorialmod.striped_sword.name=Striped Sword
+item.tutorialmod.striped_hoe.name=Striped Hoe
 
 tile.tutorialmod.striped_block.name=Striped Block
 tile.tutorialmod.striped_ore.name=Striped Ore
