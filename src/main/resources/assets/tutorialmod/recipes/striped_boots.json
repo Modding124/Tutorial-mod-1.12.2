@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "S S",
+    "S S"
+  ],
+  "key":
+  {
+    "S":
+    {
+      "item": "tutorialmod:striped_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "tutorialmod:striped_boots",
+    "count": 1
+  }
+}

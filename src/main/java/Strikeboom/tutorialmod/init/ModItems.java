@@ -2,7 +2,9 @@ package Strikeboom.tutorialmod.init;
 
 import Strikeboom.tutorialmod.TutorialMod;
 import Strikeboom.tutorialmod.items.tools.*;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemArmor;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -16,6 +18,10 @@ public class ModItems {
     public static Item stripedShovel;
     public static Item stripedSword;
     public static Item stripedHoe;
+    public static Item stripedHelmet;
+    public static Item stripedChestplate;
+    public static Item stripedLeggings;
+    public static Item stripedBoots;
 
     public static void preInit() {
         //tutorialmod:striped_ingot
@@ -25,6 +31,10 @@ public class ModItems {
         stripedShovel = new ToolShovel(ModMaterials.STRIPED).setRegistryName("striped_shovel");
         stripedSword = new ToolSword(ModMaterials.STRIPED).setRegistryName("striped_sword");
         stripedHoe = new ToolHoe(ModMaterials.STRIPED).setRegistryName("striped_hoe");
+        stripedHelmet = new ItemArmor(ModMaterials.STRIPED_ARMOR_MATERIAL,1, EntityEquipmentSlot.HEAD).setRegistryName("striped_helmet");
+        stripedChestplate = new ItemArmor(ModMaterials.STRIPED_ARMOR_MATERIAL,1,EntityEquipmentSlot.CHEST).setRegistryName("striped_chestplate");
+        stripedLeggings = new ItemArmor(ModMaterials.STRIPED_ARMOR_MATERIAL,2,EntityEquipmentSlot.LEGS).setRegistryName("striped_leggings");
+        stripedBoots = new ItemArmor(ModMaterials.STRIPED_ARMOR_MATERIAL,1,EntityEquipmentSlot.FEET).setRegistryName("striped_boots");
 
         add(stripedIngot);
         add(stripedPickaxe);
@@ -32,6 +42,10 @@ public class ModItems {
         add(stripedShovel);
         add(stripedSword);
         add(stripedHoe);
+        add(stripedHelmet);
+        add(stripedChestplate);
+        add(stripedLeggings);
+        add(stripedBoots);
     }
     private static void add(Item i) {
         i.setUnlocalizedName(i.getRegistryName().toString().replace(":","."));

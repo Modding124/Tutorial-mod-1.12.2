@@ -4,6 +4,10 @@ item.tutorialmod.striped_axe.name=Striped Axe
 item.tutorialmod.striped_shovel.name=Striped Shovel
 item.tutorialmod.striped_sword.name=Striped Sword
 item.tutorialmod.striped_hoe.name=Striped Hoe
+item.tutorialmod.striped_helmet.name=Striped Helmet
+item.tutorialmod.striped_chestplate.name=Striped Chestplate
+item.tutorialmod.striped_leggings.name=Striped Leggings
+item.tutorialmod.striped_boots.name=Striped Boots
 
 tile.tutorialmod.striped_block.name=Striped Block
 tile.tutorialmod.striped_ore.name=Striped Ore
