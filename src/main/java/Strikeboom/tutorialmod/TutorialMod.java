@@ -4,12 +4,14 @@ import Strikeboom.tutorialmod.handlers.proxy.IProxy;
 import Strikeboom.tutorialmod.init.ModBlocks;
 import Strikeboom.tutorialmod.init.ModItems;
 import Strikeboom.tutorialmod.init.ModSmelting;
+import Strikeboom.tutorialmod.worldgen.OreGeneration;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = TutorialMod.MOD_ID,name = "Tutorial Mod",version = "1.0",acceptedMinecraftVersions = "1.12.2")
 public class TutorialMod {
@@ -38,5 +40,6 @@ public class TutorialMod {
     public void init(FMLInitializationEvent event) {
         proxy.init();
         ModSmelting.init();
+        GameRegistry.registerWorldGenerator(new OreGeneration(),2);
     }
 }
