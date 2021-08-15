@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " N ",
+    "SLS",
+    " S "
+  ],
+  "key":
+  {
+    "S":
+    {
+      "item": "tutorialmod:striped_ingot"
+    },
+    "N":
+    {
+      "item": "minecraft:nether_star"
+    },
+    "L":
+    {
+      "item": "minecraft:leather"
+    }
+  },
+  "result":
+  {
+    "item": "tutorialmod:totem_of_destruction",
+    "count": 1
+  }
+}

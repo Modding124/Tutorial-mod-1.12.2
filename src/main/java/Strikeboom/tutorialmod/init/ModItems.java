@@ -1,6 +1,7 @@
 package Strikeboom.tutorialmod.init;
 
 import Strikeboom.tutorialmod.TutorialMod;
+import Strikeboom.tutorialmod.items.TotemOfDestruction;
 import Strikeboom.tutorialmod.items.tools.*;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -22,6 +23,7 @@ public class ModItems {
     public static Item stripedChestplate;
     public static Item stripedLeggings;
     public static Item stripedBoots;
+    public static Item totemOfDestruction;
 
     public static void preInit() {
         //tutorialmod:striped_ingot
@@ -35,6 +37,7 @@ public class ModItems {
         stripedChestplate = new ItemArmor(ModMaterials.STRIPED_ARMOR_MATERIAL,1,EntityEquipmentSlot.CHEST).setRegistryName("striped_chestplate");
         stripedLeggings = new ItemArmor(ModMaterials.STRIPED_ARMOR_MATERIAL,2,EntityEquipmentSlot.LEGS).setRegistryName("striped_leggings");
         stripedBoots = new ItemArmor(ModMaterials.STRIPED_ARMOR_MATERIAL,1,EntityEquipmentSlot.FEET).setRegistryName("striped_boots");
+        totemOfDestruction = new TotemOfDestruction().setRegistryName("totem_of_destruction");
 
         add(stripedIngot);
         add(stripedPickaxe);
@@ -46,6 +49,7 @@ public class ModItems {
         add(stripedChestplate);
         add(stripedLeggings);
         add(stripedBoots);
+        add(totemOfDestruction);
     }
     private static void add(Item i) {
         i.setUnlocalizedName(i.getRegistryName().toString().replace(":","."));
