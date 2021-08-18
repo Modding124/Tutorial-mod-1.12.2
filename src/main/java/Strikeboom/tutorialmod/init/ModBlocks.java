@@ -1,6 +1,7 @@
 package Strikeboom.tutorialmod.init;
 
 import Strikeboom.tutorialmod.TutorialMod;
+import Strikeboom.tutorialmod.blocks.Healer;
 import Strikeboom.tutorialmod.blocks.StripedBlock;
 import Strikeboom.tutorialmod.blocks.StripedOre;
 import net.minecraft.block.Block;
@@ -15,13 +16,16 @@ public class ModBlocks {
 
     public static Block stripedBlock;
     public static Block stripedOre;
+    public static Block healer;
 
     public static void preInit() {
         stripedBlock = new StripedBlock().setRegistryName("striped_block");
         stripedOre = new StripedOre().setRegistryName("striped_ore");
+        healer = new Healer().setRegistryName("healer");
 
         add(stripedBlock);
         add(stripedOre);
+        add(healer);
     }
     private static void add(Block block) {
         block.setUnlocalizedName(block.getRegistryName().toString().replace(":","."));

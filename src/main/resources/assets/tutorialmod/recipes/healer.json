@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "RRR",
+    "SSS",
+    "GGG"
+  ],
+  "key":
+  {
+    "S":
+    {
+      "item": "tutorialmod:striped_ingot"
+    },
+    "R":
+    {
+      "item": "minecraft:dye",
+      "data":1
+    },
+    "G":
+    {
+      "item": "minecraft:glass"
+    }
+  },
+  "result":
+  {
+    "item": "tutorialmod:healer",
+    "count": 1
+  }
+}

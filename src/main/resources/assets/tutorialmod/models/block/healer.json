@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "tutorialmod:blocks/healer_top",
+    "up":"tutorialmod:blocks/healer_top",
+    "down":"tutorialmod:blocks/healer_top",
+    "east":"tutorialmod:blocks/healer_sides",
+    "west":"tutorialmod:blocks/healer_sides",
+    "north":"tutorialmod:blocks/healer_sides",
+    "south":"tutorialmod:blocks/healer_sides"
+  }
+}
