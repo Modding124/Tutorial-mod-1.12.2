@@ -10,7 +10,8 @@
   {
     "S":
     {
-      "item": "tutorialmod:striped_ingot"
+      "type": "forge:ore_dict",
+      "ore": "ingotStriped"
     },
     "R":
     {
@@ -19,7 +20,8 @@
     },
     "G":
     {
-      "item": "minecraft:glass"
+      "type": "forge:ore_dict",
+      "ore": "blockGlass"
     }
   },
   "result":

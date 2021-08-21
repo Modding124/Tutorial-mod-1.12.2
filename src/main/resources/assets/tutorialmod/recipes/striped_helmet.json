@@ -10,7 +10,8 @@
   {
     "S":
     {
-      "item": "tutorialmod:striped_ingot"
+      "type": "forge:ore_dict",
+      "ore": "ingotStriped"
     }
   },
   "result":

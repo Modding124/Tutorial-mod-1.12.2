@@ -1,5 +1,6 @@
 package Strikeboom.tutorialmod;
 
+import Strikeboom.tutorialmod.handlers.OreDictionaryHandler;
 import Strikeboom.tutorialmod.handlers.proxy.IProxy;
 import Strikeboom.tutorialmod.init.ModBlocks;
 import Strikeboom.tutorialmod.init.ModItems;
@@ -41,5 +42,6 @@ public class TutorialMod {
         proxy.init();
         ModSmelting.init();
         GameRegistry.registerWorldGenerator(new OreGeneration(),2);
+        OreDictionaryHandler.init();
     }
 }

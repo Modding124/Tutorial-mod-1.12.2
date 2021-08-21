@@ -10,15 +10,18 @@
   {
     "S":
     {
-      "item": "tutorialmod:striped_ingot"
+      "type": "forge:ore_dict",
+      "ore": "ingotStriped"
     },
     "N":
     {
-      "item": "minecraft:nether_star"
+      "type": "forge:ore_dict",
+      "ore": "netherStar"
     },
     "L":
     {
-      "item": "minecraft:leather"
+      "type": "forge:ore_dict",
+      "ore": "leather"
     }
   },
   "result":
