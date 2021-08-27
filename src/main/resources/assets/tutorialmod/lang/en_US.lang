@@ -18,3 +18,5 @@ itemGroup.tutorialmod=Tutorial Mod
 
 item.tutorialmod.totem_of_destruction.tooltip=Right Click While Holding To Kill All Entities Within A 5 Block Radius
 tile.tutorialmod.healer.tooltip=Right Click The Healer Block To Get All Of Your Health Back!
+
+entity.glowing_cow.name=Glowing Cow
