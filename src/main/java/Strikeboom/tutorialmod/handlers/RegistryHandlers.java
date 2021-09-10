@@ -1,6 +1,7 @@
 package Strikeboom.tutorialmod.handlers;
 
 import Strikeboom.tutorialmod.TutorialMod;
+import Strikeboom.tutorialmod.entity.EntityAirplane;
 import Strikeboom.tutorialmod.entity.EntityGlowingCow;
 import Strikeboom.tutorialmod.init.ModBlocks;
 import Strikeboom.tutorialmod.init.ModItems;
@@ -30,6 +31,13 @@ public class RegistryHandlers {
                 .id("glowing_cow",1223)
                 .name("glowing_cow")
                 .egg(0xffea00,0x544d00)
+                .build());
+        event.getRegistry().register(EntityEntryBuilder.create()
+                        .entity(EntityAirplane.class)
+                        .egg(0xebe534,0x212002)
+                        .tracker(50,1,true)
+                        .id("airplane",1822)
+                        .name("airplane")
                 .build());
     }
 }

@@ -1,7 +1,9 @@
 package Strikeboom.tutorialmod.handlers.proxy;
 
 import Strikeboom.tutorialmod.TutorialMod;
+import Strikeboom.tutorialmod.entity.EntityAirplane;
 import Strikeboom.tutorialmod.entity.EntityGlowingCow;
+import Strikeboom.tutorialmod.entity.render.EntityAirplaneRender;
 import Strikeboom.tutorialmod.entity.render.EntityGlowingCowRender;
 import Strikeboom.tutorialmod.init.ModItems;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -15,6 +17,7 @@ public class ClientProxy implements IProxy{
     @Override
     public void preInit() {
         RenderingRegistry.registerEntityRenderingHandler(EntityGlowingCow.class, EntityGlowingCowRender::new);
+        RenderingRegistry.registerEntityRenderingHandler(EntityAirplane.class, EntityAirplaneRender::new);
     }
 
     @Override

@@ -1,6 +1,7 @@
 package Strikeboom.tutorialmod.init;
 
 import Strikeboom.tutorialmod.TutorialMod;
+import Strikeboom.tutorialmod.items.Airplane;
 import Strikeboom.tutorialmod.items.TotemOfDestruction;
 import Strikeboom.tutorialmod.items.tools.*;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -24,6 +25,7 @@ public class ModItems {
     public static Item stripedLeggings;
     public static Item stripedBoots;
     public static Item totemOfDestruction;
+    public static Item airplane;
 
     public static void preInit() {
         //tutorialmod:striped_ingot
@@ -38,7 +40,9 @@ public class ModItems {
         stripedLeggings = new ItemArmor(ModMaterials.STRIPED_ARMOR_MATERIAL,2,EntityEquipmentSlot.LEGS).setRegistryName("striped_leggings");
         stripedBoots = new ItemArmor(ModMaterials.STRIPED_ARMOR_MATERIAL,1,EntityEquipmentSlot.FEET).setRegistryName("striped_boots");
         totemOfDestruction = new TotemOfDestruction().setRegistryName("totem_of_destruction");
+        airplane = new Airplane().setRegistryName("airplane");
 
+        add(airplane);
         add(stripedIngot);
         add(stripedPickaxe);
         add(stripedAxe);

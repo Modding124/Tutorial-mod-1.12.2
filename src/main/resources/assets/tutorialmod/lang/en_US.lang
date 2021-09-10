@@ -9,6 +9,7 @@ item.tutorialmod.striped_chestplate.name=Striped Chestplate
 item.tutorialmod.striped_leggings.name=Striped Leggings
 item.tutorialmod.striped_boots.name=Striped Boots
 item.tutorialmod.totem_of_destruction.name=Totem Of Destruction
+item.tutorialmod.airplane.name=Airplane
 
 tile.tutorialmod.striped_block.name=Striped Block
 tile.tutorialmod.striped_ore.name=Striped Ore
@@ -20,3 +21,4 @@ item.tutorialmod.totem_of_destruction.tooltip=Right Click While Holding To Kill 
 tile.tutorialmod.healer.tooltip=Right Click The Healer Block To Get All Of Your Health Back!
 
 entity.glowing_cow.name=Glowing Cow
+entity.airplane.name=Airplane
